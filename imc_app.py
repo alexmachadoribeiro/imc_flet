@@ -29,6 +29,9 @@ def main(page: ft.Page):
             else:
                 imc_msg.value = 'Você está com obeisdade mórbida.'
 
+            peso.value = ''
+            altura.value = ''
+
             page.update()
 
     page.title = 'IMC - Índice de Massa Corporal'
