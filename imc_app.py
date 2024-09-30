@@ -1,3 +1,10 @@
+'''
+Para gerar o executável do app:
+pip install pyinstaller
+pip install pillow
+flet pack nome_arquivo.py --icon nome_icone.png
+'''
+
 import flet as ft
 
 def main(page: ft.Page):
